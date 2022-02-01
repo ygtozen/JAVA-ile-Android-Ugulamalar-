@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/grupResim"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/resim"/>
+
+    <TextView
+        android:id="@+id/grupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/grupResim"
+        android:text="Yiğit Hoca ile Android Eğitimi"/>
+
+    <TextView
+        android:id="@+id/zaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grupName"
+        android:layout_toRightOf="@+id/grupResim"
+        android:layout_marginTop="10dp"
+        android:text="25 dk önce"/>
+
+    <TextView
+        android:id="@+id/aciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grupResim"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Harika bir resim."/>
+
+    <ImageView
+        android:id="@+id/buyukResim"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:background="@drawable/back"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/aciklama"/>
+
+    <ImageView
+        android:id="@+id/likeResim"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/like"
+        android:layout_below="@+id/buyukResim"/>
+
+    <TextView
+        android:id="@+id/likeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/likeResim"
+        android:layout_below="@id/buyukResim"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Like"/>
+
+    <ImageView
+        android:id="@+id/yorumResim"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/comment"
+        android:layout_toRightOf="@+id/likeText"
+        android:layout_below="@id/buyukResim"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/yorumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/yorumResim"
+        android:layout_below="@id/buyukResim"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:text="Yorum Yap"/>
+
+    <ImageView
+        android:id="@+id/paylasResim"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/share"
+        android:layout_toRightOf="@id/yorumText"
+        android:layout_below="@id/buyukResim"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/paylasText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/paylasResim"
+        android:layout_below="@id/buyukResim"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:text="Paylaş"/>
+
+
+
+
+
+</RelativeLayout>

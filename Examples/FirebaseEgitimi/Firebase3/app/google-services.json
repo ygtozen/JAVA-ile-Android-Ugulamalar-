@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "882949432470",
+    "firebase_url": "https://kapsamliandroidegitimi-bdec4-default-rtdb.firebaseio.com",
+    "project_id": "kapsamliandroidegitimi-bdec4",
+    "storage_bucket": "kapsamliandroidegitimi-bdec4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882949432470:android:b5cb8058ae6cd449de0eb7",
+        "android_client_info": {
+          "package_name": "com.example.firebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882949432470-2f6enrhh1s1eq74s1ivc7ejpblvflmvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsg2pQwCbUB80gRurfJCUpJL5HGWMlKWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882949432470-2f6enrhh1s1eq74s1ivc7ejpblvflmvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882949432470:android:c9e0bfa2c00faf77de0eb7",
+        "android_client_info": {
+          "package_name": "com.example.firebase3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882949432470-2f6enrhh1s1eq74s1ivc7ejpblvflmvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsg2pQwCbUB80gRurfJCUpJL5HGWMlKWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882949432470-2f6enrhh1s1eq74s1ivc7ejpblvflmvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882949432470:android:6e9ae09e9bd5da3ade0eb7",
+        "android_client_info": {
+          "package_name": "com.example.firebaseegitimi1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882949432470-2f6enrhh1s1eq74s1ivc7ejpblvflmvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsg2pQwCbUB80gRurfJCUpJL5HGWMlKWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882949432470-2f6enrhh1s1eq74s1ivc7ejpblvflmvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
